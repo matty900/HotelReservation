@@ -20,17 +20,17 @@ JavaFX SDK: JavaFX libraries are necessary for the UI components.<br/>
 # **Setup Instructions**<br/>
 
 ## Clone the Repository <br/>
-git clone https://github.com/matty900/hotel-reservation-system.git
-cd hotel-reservation-system<br/>
+git clone https://github.com/matty900/HotelReservation.git
+cd HotelReservation<br/>
 ## Build the Project<br/>
 Maven is used for dependency management and building the project. Use the following command to build the project:<br/>
 ./mvnw clean install
 ## Run the Server<br/>
 To start the multithreaded server: <br/>
-java -cp target/hotel-reservation-system.jar com.example.server.Server
+java -cp target/HotelReservation.jar com.example.server.Server
 ## Run the Client <br/>
 To run the client:<br/>
-java -cp target/hotel-reservation-system.jar com.example.client.Client
+java -cp target/HotelReservation.jar com.example.client.Client
 
 
 
